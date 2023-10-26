@@ -15,6 +15,27 @@ The model architecture of LLF-LUT is shown below. Given an input 16-bit HDR imag
 
 <img width="900" alt="image" src='./asset/framework.png'>
 
+## :bookmark_tabs:Intallation
+Download the HDR+ dataset and MIT-Adobe FiveK dataset at the following links:
+
+HDR+ (Original Size (4K)): [download (37 GB)](https://hdrplusdata.org/dataset.html) ; (480p)[download (1.38 GB)](https://drive.google.com/drive/folders/1Y1Rv3uGiJkP6CIrNTSKxPn1p-WFAc48a)
+MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit.edu/graphics/fivek/) ; (480p)[download (12.51 GB)](https://drive.google.com/drive/folders/1Y1Rv3uGiJkP6CIrNTSKxPn1p-WFAc48a)
+
+* Install the conda environment
+```
+conda create -n lrd python=3.9
+conda activate llf-lut
+```
+* Install Pytorch
+```commandline
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
+```
+## :heavy_check_mark:Pretrained Models
+The code and the checkpoints will release soon.
+
+## :car:Run
+The code and the checkpoints will release soon.
+
 ## :book: Citation
 If you find our LLF-LUT model useful for you, please consider citing :mega:
 ```bibtex
