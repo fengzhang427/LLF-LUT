@@ -1,6 +1,11 @@
 # Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping (NeurIPS 2023)
 
-<img width="900" alt="image" src='./asset/0215.gif'>
+**Technical Report**: <a href=''><img src='https://img.shields.io/badge/paper-PDF-green'></a>
+
+<img width="300" alt="image" src='./asset/0215.gif'>
+<img width="300" alt="image" src='./asset/1224.gif'>
+<img width="300" alt="image" src='./asset/1247.gif'>
+<img width="300" alt="image" src='./asset/1874.gif'>
 
 🚀🚀 Welcome to the repo of **LLF-LUT** 🚀🚀 
 
