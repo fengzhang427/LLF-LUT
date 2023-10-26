@@ -2,10 +2,8 @@
 
 **Technical Report**: <a href=''><img src='https://img.shields.io/badge/paper-PDF-green'></a>
 
-<img width="300" alt="image" src='./asset/0215.gif'>
-<img width="300" alt="image" src='./asset/1224.gif'>
-<img width="300" alt="image" src='./asset/1247.gif'>
-<img width="300" alt="image" src='./asset/1874.gif'>
+<img width="300" alt="image" src='./asset/0215.gif'> <img width="300" alt="image" src='./asset/1224.gif'>
+<img width="300" alt="image" src='./asset/1247.gif'> <img width="300" alt="image" src='./asset/1874.gif'>
 
 🚀🚀 Welcome to the repo of **LLF-LUT** 🚀🚀 
 
