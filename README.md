@@ -24,7 +24,7 @@ MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit
 
 * Install the conda environment
 ```
-conda create -n lrd python=3.9
+conda create -n llf-lut python=3.9
 conda activate llf-lut
 ```
 * Install Pytorch
