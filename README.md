@@ -1,2 +1,10 @@
-# LLF-LUT
-Official implementation for our NeurIPS 2023 paper “Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping”
+# Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping (NeurIPS 2023)
+
+
+## :book: Citation
+If you find our LRD model useful for you, please consider citing :mega:
+```bibtex
+```
+
+## :email:Contact
+If you have any question, feel free to email fengzhangaia@hust.edu.cn.
