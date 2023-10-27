@@ -1,6 +1,6 @@
 # Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping (NeurIPS 2023)
 
-**Technical Report**: <a href=''><img src='https://img.shields.io/badge/paper-PDF-green'></a>
+**Technical Report**: <a href='https://arxiv.org/abs/2310.17190'><img src='https://img.shields.io/badge/paper-PDF-green'></a>
 
 <img width="400" alt="image" src='./asset/0215.gif'> <img width="400" alt="image" src='./asset/1224.gif'>
 <img width="400" alt="image" src='./asset/1247.gif'> <img width="400" alt="image" src='./asset/1874.gif'>
@@ -40,6 +40,14 @@ The code and the checkpoints will release soon.
 ## :book: Citation
 If you find our LLF-LUT model useful for you, please consider citing :mega:
 ```bibtex
+@misc{zhang2023lookup,
+      title={Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping}, 
+      author={Feng Zhang and Ming Tian and Zhiqiang Li and Bin Xu and Qingbo Lu and Changxin Gao and Nong Sang},
+      year={2023},
+      eprint={2310.17190},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## :email:Contact
