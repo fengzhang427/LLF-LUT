@@ -10,6 +10,7 @@
 LLF-LUT is an effective end-to-end framework for the **HDR image tone mapping** task performing global tone manipulation while preserving local edge details. Specifically, we build a lightweight transformer weight predictor on the bottom of the Laplacian pyramid to predict the pixel-level content-dependent weight maps. The input HDR image is trilinear interpolated using the basis 3D LUTs and then multiplied with weighted maps to generate a coarse LDR image. To preserve local edge details and reconstruct the image from the Laplacian pyramid faithfully, we propose an image-adaptive learnable local Laplacian filter (LLF) to refine the high-frequency components while minimizing the use of computationally expensive convolution in the high-resolution components for efficiency.
 
 🛄🛄 Disclaimer 🛄🛄
+
 "The disparities observed between the results of CLUT in our study and the original research can be attributed to differences in the fundamental tasks. Specifically, our study focuses on the transformation of 16-bit High Dynamic Range (HDR) images into 8-bit Low Dynamic Range (LDR) images. In contrast, the original paper primarily addressed 8-bit to 8-bit image enhancement. Furthermore, CLUT's parameter count stands at 952K in our paper, a result of the utilization of sLUT as the backbone for CLUT. Notably, when the backbone is modified to LUT, the parameter count is reduced to 292K."
 
 ## 🌟 Structure
