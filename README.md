@@ -22,9 +22,9 @@ The model architecture of LLF-LUT is shown below. Given an input 16-bit HDR imag
 ## :bookmark_tabs:Intallation
 Download the HDR+ dataset and MIT-Adobe FiveK dataset at the following links:
 
-HDR+ (Original Size (4K)): [download (37 GB)](https://hdrplusdata.org/dataset.html) ; (480p)[download (1.38 GB)](https://drive.google.com/drive/folders/1Y1Rv3uGiJkP6CIrNTSKxPn1p-WFAc48a)
+HDR+ (Original Size (4K)): [download (37 GB)](https://hdrplusdata.org/dataset.html) ; (480p)[download (1.38 GB)](https://drive.google.com/file/d/1w5pFeqBX1U5v6qA-OS9CMzEEhnJv-vbi/view?usp=sharing)
 
-MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit.edu/graphics/fivek/) ; (480p)[download (12.51 GB)](https://drive.google.com/drive/folders/1Y1Rv3uGiJkP6CIrNTSKxPn1p-WFAc48a)
+MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit.edu/graphics/fivek/) ; (480p)[download (12.51 GB)](https://drive.google.com/file/d/1Z4krjqK8a_k5eBEXmOSQc2JS_5Ioc023/view?usp=sharing)
 
 * Install the conda environment
 ```
