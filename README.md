@@ -28,7 +28,7 @@ Download the HDR+ dataset and MIT-Adobe FiveK dataset at the following links:
 
 HDR+ (Original Size (4K)): [download (37 GB)](https://hdrplusdata.org/dataset.html) [Baiduyun(code:vcha)](https://pan.baidu.com/s/18iuX4eoYc0CaMzeN9O-KvA); (480p)[download (1.38 GB)](https://drive.google.com/file/d/1w5pFeqBX1U5v6qA-OS9CMzEEhnJv-vbi/view?usp=sharing)
 
-MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit.edu/graphics/fivek/) [Baiduyun(code:a9av)](https://pan.baidu.com/s/15_Fp-a8DLU6npjQt4iURvA ); (480p)[download (12.51 GB)](https://drive.google.com/file/d/1Z4krjqK8a_k5eBEXmOSQc2JS_5Ioc023/view?usp=sharing)
+MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit.edu/graphics/fivek/) [Baidudisk(code:a9av)](https://pan.baidu.com/s/15_Fp-a8DLU6npjQt4iURvA ); (480p)[download (12.51 GB)](https://drive.google.com/file/d/1Z4krjqK8a_k5eBEXmOSQc2JS_5Ioc023/view?usp=sharing)
 
 * Install the conda environment
 ```
@@ -40,10 +40,12 @@ conda activate llf-lut
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
 ```
 ## :heavy_check_mark:Pretrained Models
-The code and the checkpoints will release soon.
+Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1eDxI9Y_VNz2euNymdNYLYA6w8WLX3A5e/view?usp=sharing) and [Baidudisk(code:qh5w)](https://pan.baidu.com/s/1AwiHVLF0xlezGOfGu3XhLA?pwd=qh5w).(TPAMI version pretrained model)
+Due to company policies, we regret that we cannot release the code and pre-trained models for the NeurIPS version.
 
 ## :car:Run
 The code and the checkpoints will release soon.
+
 
 ## :book: Citation
 If you find our LLF-LUT model useful for you, please consider citing :mega:
