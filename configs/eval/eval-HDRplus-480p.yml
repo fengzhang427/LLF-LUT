@@ -1,0 +1,42 @@
+# General settings
+name: eval-HDRplus-480p
+use_tb_logger: false #true
+model: LLF_LUT
+gpu_ids: [0]
+
+# Dataset
+dataset:
+  name: HDRplus_480p
+  dataset_root: /home/dancer/train_datasets/HDRplus
+  n_workers: 8
+
+# Transformer structures
+transformer:
+  input_channel: 3
+  output_channel: 9
+  num_classes: 3
+  embed_dim: 32
+  depths: [1, 1, 1, 1, 1, 1, 1, 1]
+  num_heads: [2, 4, 8, 16, 16, 8, 4, 2]
+  window_sizes: [[4,4], [4,4], [4,4], [4,4], [4,4], [4,4], [4,4], [4,4]]
+  back_RBs: 0
+  recon_type: enhancement
+
+# Filter structures
+filter:
+  low_freq_resolution: 64
+  num_residual_blocks: 1
+  num_lap: 3
+  channels: 3
+
+# LUT structures
+LUT:
+  LUT_dim: 33
+  lambda_smooth: 0.0001
+  lambda_mono: 10.0
+
+# Path
+path:
+  pretrain_model: ./checkpoints/HDRplus-480p-best.pth
+  strict_load: true
+  output_dir: ./HDRplus_480p_results

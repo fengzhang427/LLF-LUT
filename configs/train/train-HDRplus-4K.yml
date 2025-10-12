@@ -1,0 +1,69 @@
+# General settings
+name: train-HDRplus-4K
+use_tb_logger: true #true
+model: LLF_LUT
+gpu_ids: [0]
+
+# Datasets
+dataset:
+  name: HDRplus_4K
+  random_reverse: true #false
+  dataset_root: /data/990pro2/HDRplus_4K
+  n_workers: 8  # per GPU
+  batch_size: 1
+  crop_size: None
+  image_shape: [3, 3024, 4032]
+  use_flip: true
+  use_rot: true
+
+# Transformer structures
+transformer:
+  input_channel: 3
+  output_channel: 9
+  num_classes: 3
+  embed_dim: 32
+  depths: [1, 1, 1, 1, 1, 1, 1, 1]
+  num_heads: [2, 4, 8, 16, 16, 8, 4, 2]
+  window_sizes: [[4,4], [4,4], [4,4], [4,4], [4,4], [4,4], [4,4], [4,4]]
+  back_RBs: 0
+  recon_type: enhancement
+
+# Filter structures
+filter:
+  low_freq_resolution: 64
+  num_residual_blocks: 1
+  num_lap: 6
+  channels: 3
+
+# LUT structures
+LUT:
+  LUT_dim: 33
+  lambda_smooth: 0.0001
+  lambda_mono: 10.0
+
+# Path
+path:
+  pretrain_model: ~
+  strict_load: true # false
+  resume_state: ~
+
+# Training settings
+train:
+  lr: 0.0002
+  lr_scheme: CosineAnnealingLR_Restart
+  beta1: 0.9
+  beta2: 0.99
+  niter: 675000
+  warmup_iter: -1 # 5000  # -1: no warm up
+  T_period: [135000, 270000, 405000, 540000]
+  restarts: [135000, 270000, 405000]
+  restart_weights: [0.5, 0.5, 0.5]
+  eta_min: !!float 1e-7
+  manual_seed: 3407
+  lambda_recon: 1.0
+  lambda_lpips: 0
+
+# Logger
+logger:
+  print_freq: 67500
+  save_checkpoint_freq: 67500
