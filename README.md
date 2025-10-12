@@ -40,13 +40,18 @@ conda activate llf-lut
 ```commandline
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
 ```
+* Install trilinear_cpp
+```commandline
+cd trilinear_cpp
+sh setup.sh    # modify setup.sh with your current cuda version
+```
+Or you can replace the trilinear interpolation with torch.nn.functional.grid_sample, please refer to [Image-Adaptive-3DLUT (TPAMI 2020)]([https://github.com/HuiZeng/Image-Adaptive-3DLUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT/issues/14))
 ## :heavy_check_mark:Pretrained Models
 Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1eDxI9Y_VNz2euNymdNYLYA6w8WLX3A5e/view?usp=sharing) and [Baidudisk(code:qh5w)](https://pan.baidu.com/s/1AwiHVLF0xlezGOfGu3XhLA?pwd=qh5w)(TPAMI version pretrained model).
 Due to company policies, we regret that we cannot release the code and pre-trained models for the NeurIPS version.
 
 ## :car:Run
 The code and the checkpoints will release soon.
-Please ref to [Image-Adaptive-3DLUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT) for the trilinear interpolation installation.
 
 ## 🤝 Acknowledgments
 * [Image-Adaptive-3DLUT (TPAMI 2020)](https://github.com/HuiZeng/Image-Adaptive-3DLUT)
