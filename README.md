@@ -1,7 +1,11 @@
-# Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping (NeurIPS 2023)
+# LLF-LUT(Lookup Table meets Local Laplacian Filter)
 
-**Technical Report**: <a href='https://arxiv.org/abs/2310.17190'><img src='https://img.shields.io/badge/paper-PDF-green'></a>
+The implementation of NeurIPS 2023 paper "[Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping](https://arxiv.org/abs/2310.17190)" and its journal (TPAMI) version "[High-resolution Photo Enhancement in Real-time: A Laplacian Pyramid Network](~)".
 
+## :sparkles: News
+* 2025/10/12: The comprehensive version of this work was accepted to *IEEE Transactions on Pattern Analysis and Machine Intelligence* (TPAMI)
+
+## Highlights
 <img width="400" alt="image" src='./asset/0215.gif'> <img width="400" alt="image" src='./asset/1224.gif'>
 <img width="400" alt="image" src='./asset/1247.gif'> <img width="400" alt="image" src='./asset/1874.gif'>
 
