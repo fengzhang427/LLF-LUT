@@ -3,6 +3,7 @@
 The implementation of NeurIPS 2023 paper "[Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping](https://arxiv.org/abs/2310.17190)" and its journal (TPAMI) version "[High-resolution Photo Enhancement in Real-time: A Laplacian Pyramid Network](~)".
 
 ## :sparkles: News
+* 2025/10/12: Release our pretrained models of TPAMI version at [GoogleDrive](https://drive.google.com/file/d/1eDxI9Y_VNz2euNymdNYLYA6w8WLX3A5e/view?usp=sharing) and [Baidudisk(code:qh5w)](https://pan.baidu.com/s/1AwiHVLF0xlezGOfGu3XhLA?pwd=qh5w)
 * 2025/10/12: The comprehensive version of this work was accepted to *IEEE Transactions on Pattern Analysis and Machine Intelligence* (TPAMI)
 
 ## Highlights
@@ -40,7 +41,7 @@ conda activate llf-lut
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
 ```
 ## :heavy_check_mark:Pretrained Models
-Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1eDxI9Y_VNz2euNymdNYLYA6w8WLX3A5e/view?usp=sharing) and [Baidudisk(code:qh5w)](https://pan.baidu.com/s/1AwiHVLF0xlezGOfGu3XhLA?pwd=qh5w).(TPAMI version pretrained model)
+Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1eDxI9Y_VNz2euNymdNYLYA6w8WLX3A5e/view?usp=sharing) and [Baidudisk(code:qh5w)](https://pan.baidu.com/s/1AwiHVLF0xlezGOfGu3XhLA?pwd=qh5w)(TPAMI version pretrained model).
 Due to company policies, we regret that we cannot release the code and pre-trained models for the NeurIPS version.
 
 ## :car:Run
