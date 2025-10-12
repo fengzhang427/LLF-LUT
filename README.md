@@ -3,6 +3,7 @@
 The implementation of NeurIPS 2023 paper "[Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping](https://arxiv.org/abs/2310.17190)" and its journal (TPAMI) version "[High-resolution Photo Enhancement in Real-time: A Laplacian Pyramid Network](~)".
 
 ## :sparkles: News
+* 2025/10/13: Release the training code and the testing code of TPAMI version.
 * 2025/10/12: Release our pretrained models of TPAMI version at [GoogleDrive](https://drive.google.com/file/d/1bVCJgpUq32Pb0B9u2FXXMVIFckCsBavp/view?usp=drive_link) and [Baidudisk(code:3dis)](https://pan.baidu.com/s/1-PPr8LSHwR-ZacEPdhwb0Q?pwd=3dis)
 * 2025/10/12: The comprehensive version of this work was accepted to *IEEE Transactions on Pattern Analysis and Machine Intelligence* (TPAMI)
 
@@ -51,8 +52,19 @@ Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1
 Due to company policies, we regret that we cannot release the code and pre-trained models for the NeurIPS version.
 
 ## :car:Run
-The code and the checkpoints will release soon.
-
+1. evaluate
+```commandline 
+# Modify the data path and checkpoint path in the configuration file config/eval/xxx.yml.
+# Paired data evaluate
+python3 eval.py
+# Single data evaluate
+python3 eval_single.py
+```
+2. train
+```commandline
+# Modify the data path in the configuration file config/train/xxx.yml.
+python3 train.py
+```
 ## 🤝 Acknowledgments
 * [Image-Adaptive-3DLUT (TPAMI 2020)](https://github.com/HuiZeng/Image-Adaptive-3DLUT)
 
