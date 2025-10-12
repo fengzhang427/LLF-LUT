@@ -48,15 +48,15 @@ The code and the checkpoints will release soon.
 ## :book: Citation
 If you find our LLF-LUT model useful for you, please consider citing :mega:
 ```bibtex
-@misc{zhang2023lookup,
-      title={Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping}, 
-      author={Feng Zhang and Ming Tian and Zhiqiang Li and Bin Xu and Qingbo Lu and Changxin Gao and Nong Sang},
-      year={2023},
-      eprint={2310.17190},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zhang2023lookup,
+  title={Lookup table meets local laplacian filter: pyramid reconstruction network for tone mapping},
+  author={Zhang, Feng and Tian, Ming and Li, Zhiqiang and Xu, Bin and Lu, Qingbo and Gao, Changxin and Sang, Nong},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={57558--57569},
+  year={2023}
 }
 ```
 
 ## :email:Contact
-If you have any question, feel free to email fengzhangaia@hust.edu.cn.
+If you have any question, feel free to email fengzhangaia@gmail.com.
