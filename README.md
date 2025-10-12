@@ -46,7 +46,10 @@ Due to company policies, we regret that we cannot release the code and pre-train
 
 ## :car:Run
 The code and the checkpoints will release soon.
+Please ref to [Image-Adaptive-3DLUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT) for the trilinear interpolation installation.
 
+## 🤝 Acknowledgments
+* [Image-Adaptive-3DLUT (TPAMI 2020)](https://github.com/HuiZeng/Image-Adaptive-3DLUT)
 
 ## :book: Citation
 If you find our LLF-LUT model useful for you, please consider citing :mega:
