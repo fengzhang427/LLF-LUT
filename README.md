@@ -80,14 +80,11 @@ If you find our LLF-LUT model useful for you, please consider citing :mega:
   year={2023}
 }
 
-@misc{zhang2025highresolutionphotoenhancementrealtime,
-      title={High-resolution Photo Enhancement in Real-time: A Laplacian Pyramid Network}, 
-      author={Feng Zhang and Haoyou Deng and Zhiqiang Li and Lida Li and Bin Xu and Qingbo Lu and Zisheng Cao and Minchen Wei and Changxin Gao and Nong Sang and Xiang Bai},
-      year={2025},
-      eprint={2510.11613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.11613}, 
+@article{zhang2025high,
+  title={High-resolution Photo Enhancement in Real-time: A Laplacian Pyramid Network},
+  author={Zhang, Feng and Deng, Haoyou and Li, Zhiqiang and Li, Lida and Xu, Bin and Lu, Qingbo and Cao, Zisheng and Wei, Minchen and Gao, Changxin and Sang, Nong and others},
+  journal={arXiv preprint arXiv:2510.11613},
+  year={2025}
 }
 ```
 
