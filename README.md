@@ -34,12 +34,12 @@ MIT-Adobe FiveK (Original Size (4K)):  [download (50 GB)](https://data.csail.mit
 
 * Install the conda environment
 ```
-conda create -n llf-lut python=3.9
+conda create -n llf-lut python=3.8.16
 conda activate llf-lut
 ```
 * Install Pytorch
 ```commandline
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge   ### example: python 3.8 + pytorch 1.10.0 + cuda 11.3
 ```
 * Install trilinear_cpp
 ```commandline
