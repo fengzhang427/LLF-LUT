@@ -4,7 +4,7 @@ The implementation of NeurIPS 2023 paper "[Lookup Table meets Local Laplacian Fi
 
 ## :sparkles: News
 * 2025/10/13: Release the training code and the testing code of TPAMI version.
-* 2025/10/12: Release our pretrained models of TPAMI version at [GoogleDrive](https://drive.google.com/file/d/1bVCJgpUq32Pb0B9u2FXXMVIFckCsBavp/view?usp=drive_link) and [Baidudisk(code:3dis)](https://pan.baidu.com/s/1-PPr8LSHwR-ZacEPdhwb0Q?pwd=3dis)
+* 2025/10/12: Release our pretrained models of TPAMI version at [GoogleDrive](https://drive.google.com/file/d/1fkMj0peUbkX2ETC4rCxy0FAL7Gyxgg26/view?usp=sharing) and [Baidudisk(code:fegh)](https://pan.baidu.com/s/1zPkdl0MG6nYNR4ZNC8fqoA?pwd=fegh)
 * 2025/10/12: The comprehensive version of this work was accepted to *IEEE Transactions on Pattern Analysis and Machine Intelligence* (TPAMI)
 
 ## Highlights
@@ -49,7 +49,7 @@ sh setup.sh    # modify setup.sh with your current cuda version
 ```
 Or you can replace the trilinear interpolation with torch.nn.functional.grid_sample, please refer to [Image-Adaptive-3DLUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT/issues/14)
 ## :heavy_check_mark:Pretrained Models
-Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1bVCJgpUq32Pb0B9u2FXXMVIFckCsBavp/view?usp=drive_link) and [Baidudisk(code:3dis)](https://pan.baidu.com/s/1-PPr8LSHwR-ZacEPdhwb0Q?pwd=3dis)(TPAMI version pretrained model).
+Release our pretrained models at [GoogleDrive](https://drive.google.com/file/d/1fkMj0peUbkX2ETC4rCxy0FAL7Gyxgg26/view?usp=sharing) and [Baidudisk(code:fegh)](https://pan.baidu.com/s/1zPkdl0MG6nYNR4ZNC8fqoA?pwd=fegh)(TPAMI version pretrained model).
 Due to company policies, we regret that we cannot release the code and pre-trained models for the NeurIPS version.
 
 ## :car:Run
