@@ -1,6 +1,8 @@
 import numpy as np
 from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from skimage.metrics import structural_similarity as compare_ssim
+from skimage.color import rgb2lab, deltaE_cie76, deltaE_ciede94, deltaE_ciede2000
+
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -59,8 +61,11 @@ def tensor2im(image_tensor, visualize=False, video=False):
 def quality_assess(X, Y, data_range=255):
     # Y: correct; X: estimate
     if X.ndim == 3:
+        # Calculate PSNR and SSIM
         psnr = compare_psnr(Y, X, data_range=data_range)
         ssim = compare_ssim(Y, X, data_range=data_range, channel_axis=2)
-        return {'PSNR': psnr, 'SSIM': ssim}
+        # Calculate deltaE
+        delta = np.mean(deltaE_ciede94(rgb2lab(Y.astype(np.uint8)), rgb2lab(X.astype(np.uint8))))
+        return {'PSNR': psnr, 'SSIM': ssim, 'DeltaE': delta}
     else:
         raise NotImplementedError
