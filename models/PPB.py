@@ -175,9 +175,11 @@ class PPB(nn.Module):
         low_freq_gray = kornia.color.rgb_to_grayscale(enhanced_low)
         edge_map = kornia.filters.canny(low_freq_gray)[1]
         low_freq_up = nn.functional.interpolate(enhanced_low, size=(pyr_input[-2].shape[2], pyr_input[-2].shape[3]))
-        gauss_input_up = nn.functional.interpolate(gauss_input[-1],
+        # gauss_input[-1] or pyr_input[-1]
+        gauss_input_up = nn.functional.interpolate(pyr_input[-1],
                                                    size=(pyr_input[-2].shape[2], pyr_input[-2].shape[3]))
         edge_map_up = nn.functional.interpolate(edge_map, size=(pyr_input[-2].shape[2], pyr_input[-2].shape[3]))
-        concat_imgs = torch.cat([gauss_input[-2], edge_map_up, low_freq_up, gauss_input_up], 1)
+        # gauss_input[-2] or pyr_input[-2]
+        concat_imgs = torch.cat([pyr_input[-2], edge_map_up, low_freq_up, gauss_input_up], 1)
         pyr_reconstruct_results = self.block(concat_imgs, gauss_input, pyr_input, enhanced_low)
         return pyr_reconstruct_results
